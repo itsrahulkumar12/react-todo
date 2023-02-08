@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todos {
+    background-color: aqua;
+    
+}
