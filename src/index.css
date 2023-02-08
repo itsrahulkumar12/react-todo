@@ -10,5 +10,39 @@ body {
 
 .todos {
     background-color: aqua;
-    
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.todos h1{
+    text-align: center;
+}
+
+.input-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todos div input {
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.todos div button {
+    padding: 6px;
+    border-radius: 3px;
+}
+
+.todo {
+    background-color: antiquewhite;
+    border-radius: 3px;
+}
+
+.todo p {
+    padding: 6px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
